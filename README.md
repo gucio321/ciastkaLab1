@@ -3,7 +3,7 @@
 
 <p align="center">
 <!--AUTOURL-BEGIN-->
-<a href="https://github.com/FT2z7/FT2zXcXvX/blob/pdf/ft2zxcxvx.pdf">
+<a href="https://github.com/gucio321/ciastkaLab1/blob/pdf/ft2zxcxvx.pdf">
 <!--AUTOURL-END-->
 <img src="./resources/button.png"></a>
 </p>
