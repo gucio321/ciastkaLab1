@@ -43,21 +43,32 @@ Gdzie $\mu$ najczęściej wyznaczamy eksperymentalnie.
 Podatność magnetyczna to wielkość opisująca jak bardzo dany materiał ulega namagnesowaniu pod wpływem zewnętrznego pola magnetycznego.
 
 $$
-\Chi = \frac{M}{H}
+\chi = \frac{M}{H}
 $$
 
 gdzie:
-- $\Chi$ to podatność magnetyczna (bez jednostek)
+- $\chi$ to podatność magnetyczna (bez jednostek)
 - $M$ to namagnesowanie (w amperometrach na metr)
 - $H$ to natężenie pola magnetycznego (w amperach na metr)
 
-## Typowe wartości $\Chi$
+## Typowe wartości $\chi$
 
-- Dla $\Chi > 0$ substancja jest paramagnetykiem (mniejsze wartości) lub ferromagnetykiem (większe wartości).
-- Dla $\Chi < 0$ substancja jest diamagnetykiem (czyli jest odpychana przez pole).
+- Dla $\chi > 0$ substancja jest paramagnetykiem (mniejsze wartości) lub ferromagnetykiem (większe wartości).
+- Dla $\chi < 0$ substancja jest diamagnetykiem (czyli jest odpychana przez pole).
 - dla antyferromagnetyków $\chi << 1$ (bardzo mała podatność rzędu $10^{-3}$).
 
 # Magnetyczne przejścia fazowe
 Przy wystęþowaniu określonej temperatóry (zależy od materiału) materiały tracą swoją uporządkowaną strukturę magnetyczną i przechodzą w stan paramagnetyczny.
 Temperatura Curie dotyczy ferromagnetyków, a temperatura Neéla antyferromagnetyków.
 Jest to temperatura graniczna, powyżej któ©ej zachodzi przejście fazowe.
+
+Generalnie ferromagnetyki są najbardziej magnetyczne w okolicy $T_C$.
+
+# Pomiary Podatności Magnetycznej
+Pole magnetyczne generowane jest przy pomocy cewek Hermholtza $H_{zew} = H sin(\omega t)$.
+Pomiar podatności przy użyciu tego urządzenia polega na pomiaru prądu indukowanego w próbce $H_{ind}$.
+Z uwagi na istnienie dużych szumów do pomiaru indukowanych prądów wykrozystuje się woltomierz fazowy.
+Taki woltomierz mierzy dwie wartości:
+- $V_x$ - składową zgodną w fazie z polem magnetycznym $H_{zew}$
+- $V_y$ - przesuniętą o $90^\circ$
+
