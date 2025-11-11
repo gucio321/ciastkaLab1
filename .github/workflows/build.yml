@@ -26,10 +26,36 @@ jobs:
       run: |
         pip install -r requirements.txt
         pip install setuptools
-    - name: build PDF
-      uses: xu-cheng/texlive-action@v3
+    - name: setup texlive
+      uses: teatimeguest/setup-texlive-action@v3
       with:
-        run: make latexpdf
+        version: 2024
+        packages: |
+          # to list local packages use: tlmgr info --list --data name
+          scheme-basic
+          latexmk
+          cmap
+          cancel
+          tex-gyre
+          fncychap
+          float
+          wrapfig
+          capt-of
+          framed
+          babel-polish
+          fancyvrb
+          upquote
+          needspace
+          tabulary
+          varwidth
+          booktabs
+          parskip
+          titlesec
+          etoolbox
+          makecell
+          caption
+    - name: build PDF
+      run: make latexpdf
     - name: extract file name
       run: |
         # extract filename from conf.py (it is a value of variable 'project' in lowercase)
